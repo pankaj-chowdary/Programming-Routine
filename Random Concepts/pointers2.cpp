@@ -10,8 +10,8 @@ int main() {
     // it in memory at the location pointed to by p
     // NOTE: cin would put an extra NULL character 
     // at the end to terminate the string
-    cin >> p;                      //forexample: haha
-
+  //  cin >> p;                      //forexample: haha
+    p="pankaj";
     // Now p would be pointing to a piece of memory like this
     // [h] [a] [h] [a] [\0]
 
@@ -34,6 +34,6 @@ int main() {
      q=*p;
      cout <<q; 
      p++;
-    } 
+    }
     return 0;
 }
