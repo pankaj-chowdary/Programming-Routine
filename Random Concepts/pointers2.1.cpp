@@ -7,7 +7,10 @@ int main()
 	p="pankaj";
 	while(*p!='\0')
 	{
-		cout<<*p;
+		cout<<*p<<" ";
 		p++;
 	}
+	
+	char *ptr = "hello there";
+	cout<<ptr;
 }
